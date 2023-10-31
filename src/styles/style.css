@@ -1,0 +1,9 @@
+.title {
+  text-align: center;
+  background-color: aquamarine;
+  font-size: 24px; /* Розмір шрифта 24 пікселя */
+}
+
+.ArrayDisplay {
+  height: 315px;
+}

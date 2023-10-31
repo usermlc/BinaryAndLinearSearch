@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Самостійна робота</title>
+  <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+  <main>
+    <h1 class="title">Пошук елементів у масиві</h1>
+
+    <div>
+      <p>Відображення масиву:</p>
+      <textarea class="ArrayDisplay" id="linearArrayDisplay"></textarea>
+    </div>
+    <button onclick="LinearArrayInitializate()">Ініціалізувати</button>
+
+    <div>
+      <p>Знайти:</p>
+      <textarea id="keyToFindInLinear"></textarea>
+    </div>
+
+    <div>
+      <p>Знайдене значення:</p>
+      <textarea id="linearResultDisplay"></textarea>
+    </div>
+    <button onclick="FindKey()">Знайти</button>
+
+    <h1 class="title">Пошук методом поділу навпіл</h1>
+
+    <div>
+      <p>Відображення масиву:</p>
+      <textarea class="ArrayDisplay" id="binaryArrayDisplay"></textarea>
+    </div>
+    <button onclick="BinaryArrayInitialize()">Ініціалізувати</button>
+
+    <div>
+      <p>Знайти:</p>
+      <textarea id="keyToFindInBinary"></textarea>
+    </div>
+
+    <div>
+      <p>Знайдене значення:</p>
+      <textarea id="binaryResultDisplay"></textarea>
+    </div>
+    <button onclick="SearchWithBinaryAlgorithm()">Знайти</button>
+  </main>
+  <script src="./src/scripts/linear.js"></script>
+  <script src="./src/scripts/binary.js"></script>
+</body>
+</html>
